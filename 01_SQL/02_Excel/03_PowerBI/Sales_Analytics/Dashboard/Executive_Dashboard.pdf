@@ -1,0 +1,176 @@
+-- Executive Dashboard Design & Development --
+
+Dashboard Structure
+
+The report will contain 5 pages.
+
+Page 1 — Executive Overview
+Audience:
+CEO
+CFO
+COO
+KPI Cards
+Total Sales
+Total Profit
+Profit Margin %
+Total Orders
+Total Customers
+Average Order Value
+YoY Growth %
+MoM Growth %
+Visuals
+Monthly Sales Trend (Line Chart)
+Sales by Category (Column Chart)
+Sales by Region (Map or Bar Chart)
+Top 10 Products (Bar Chart)
+Slicers
+Year
+Quarter
+Region
+Category
+
+Page 2 — Sales Performance
+Audience:
+Sales Director
+Regional Managers
+Visuals
+Sales by State
+Sales by City
+Sales by Segment
+Monthly Sales
+Quarterly Sales
+Top Customers
+Top Sales Representatives (if available in dataset)
+
+Page 3 — Customer Insights
+Audience:
+Marketing
+Customer Success
+Sales
+KPI Cards
+Total Customers
+Average Customer Spend
+Repeat Customers (if available)
+Visuals
+Customer Segments
+Top Customers
+Customer Revenue Contribution
+Orders by Segment
+
+Page 4 — Product Performance
+Audience:
+Product Manager
+Merchandising
+Operations
+Visuals
+Sales by Category
+Sales by Sub-Category
+Top Products
+Lowest Profit Products
+Quantity Sold
+Profit Margin by Category
+
+Page 5 — Regional Performance
+Audience:
+COO
+Regional Sales Managers
+Visuals
+Filled Map
+Regional Sales
+Regional Profit
+State Performance
+City Performance
+Profit Margin by Region
+
+Navigation
+Each page should include:
+Home button
+Previous page
+Next page
+Reset Filters button
+Page navigation menu
+
+Theme
+Colors
+Primary: Dark Blue
+Secondary: Light Blue
+Positive: Green
+Negative: Red
+Neutral: Gray
+Use the same palette consistently across all pages.
+
+Typography
+Font: Segoe UI (or equivalent)
+Titles: 18–22 pt
+KPI Values: 28–36 pt
+Labels: 10–12 pt
+
+Dashboard Design Principles
+Every visual must answer one business question.
+Avoid:
+3D charts
+Pie charts with many categories
+Excessive colors
+Duplicate visuals
+Unnecessary gridlines
+Prefer:
+Consistent spacing
+Clear titles
+Appropriate chart selection
+High data-to-ink ratio
+
+Interactive Features
+Enable:
+Cross-filtering
+Cross-highlighting
+Tooltips
+Drill-through (Customer, Product, Region)
+Sync slicers across pages
+Bookmark-based navigation (optional)
+
+Dashboard Validation Checklist
+Before publishing:
+All visuals load correctly
+No blank visuals
+Relationships validated
+Measures return expected values
+Filters work correctly
+Drill-through functions correctly
+Mobile layout reviewed
+Titles are business-friendly
+Number formatting is consistent
+Currency symbols are correct
+
+Stakeholder Walkthrough
+CEO
+Overall revenue
+Growth trend
+Strategic risks
+Top opportunities
+CFO
+Profit
+Margin
+Discount impact
+Revenue trends
+COO
+Regional operations
+Inventory trends
+Operational performance
+Sales Director
+Regional sales
+Top customers
+Sales trends
+Product Manager
+Product performance
+Category contribution
+Loss-making products
+
+Expected Dashboard Outcome
+Within five minutes, an executive should be able to answer:
+Are we growing?
+Are we profitable?
+Which products drive revenue?
+Which customers are most valuable?
+Which regions need attention?
+Where should we invest next?
+
