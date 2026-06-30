@@ -1,0 +1,24 @@
+-- Data Dictionary --
+
+Column : Data Type :  Business Meaning
+Row ID : Integer : Internal row identifier
+Order ID : Text : Customer order identifier
+Order Date : Date : Date order was placed
+Ship Date : Date : Date order was shipped
+Ship Mode : Text : Shipping method
+Customer ID : Text : Unique customer identifier
+Customer Name : Text : Customer full name
+Segment : Text : Consumer, Corporate, Home Office
+Country : Text : Customer country
+City : Text : Customer city
+State : Text : Customer state
+Postal Code : Integer : Postal code
+Region : Text : Sales region
+Product ID : Text : Unique product identifier
+Category : Text : Product category
+Sub-Category : Text : Product sub-category
+Product Name : Text : Product description
+Sales : Decimal : Revenue generated
+Quantity : Integer : Units sold
+Discount : Decimal : Discount applied
+Profit : Decimal : Profit earned
