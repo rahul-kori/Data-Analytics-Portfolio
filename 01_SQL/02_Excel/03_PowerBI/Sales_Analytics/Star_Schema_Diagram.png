@@ -1,0 +1,10 @@
+-- Star Schema --
+
+
+Dim_Date
+                       │
+                       │
+Dim_Customer ─── Fact_Sales ─── Dim_Product
+                       │
+                       │
+                  Dim_Region
