@@ -6,6 +6,9 @@ Validation 1 — Total Row Count
 Validation 2 — Null Value Assessment
 There is no null found in any colum in null validation 
 
+Validation 3 — Duplicates Order lines
+found few duplicates order_Id
+
 Validation 4 — Order Date Integrity
 No record returns found
 
