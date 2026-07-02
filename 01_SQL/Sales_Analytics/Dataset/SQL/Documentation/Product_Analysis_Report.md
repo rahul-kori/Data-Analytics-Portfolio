@@ -19,4 +19,10 @@ Business Impact: These products reduce overall profitability and lower the compa
 Recommendation: Review pricing, discount policies, and product costs. Reduce excessive discounts, optimize costs, or discontinue products that consistently generate losses if they are not strategically important.
 
 -- Category Performance --
+Observation : Technology has the highest sales. Evidence : Highest total sales among categories. Business Impact : Drives revenue growth. Recommendation : Prioritize inventory and promotions.
 
+-- Sub-category Performance 
+Observation : High revenue generating sub-category.
+Evidence: The analysis identified the highest-performing sub-category based on total sales.
+Business Impact: This sub-category is a major contributor to overall revenue.
+Recommendation: Continue promoting this sub-category and ensure sufficient inventory to maintain sales growth.
