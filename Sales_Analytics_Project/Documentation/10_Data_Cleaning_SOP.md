@@ -18,7 +18,7 @@ Project		SQL Flagship Sales Analytics
 Database	Sales_Analytics_DB
 Table		sales_orders
 Owner		Data Analyst
-Version		1.0
+
 
 Data Cleaning Workflow
 Raw Data
@@ -50,7 +50,7 @@ SQL Validation
 SELECT
     row_id,
     COUNT(*) AS duplicate_count
-FROM sales_orders
+FROM raw.sales_orders
 GROUP BY row_id
 HAVING COUNT(*) > 1;
 
@@ -79,7 +79,7 @@ SELECT
     SUM(CASE WHEN product_id IS NULL THEN 1 ELSE 0 END) AS product_nulls,
     SUM(CASE WHEN sales IS NULL THEN 1 ELSE 0 END) AS sales_nulls,
     SUM(CASE WHEN profit IS NULL THEN 1 ELSE 0 END) AS profit_nulls
-FROM sales_orders;
+FROM raw sales_orders;
 
 Cleaning Decision
 •	Investigate missing values.
@@ -107,7 +107,7 @@ Order Date ≤ Ship Date
 
 SQL Validation
 SELECT *
-FROM sales_orders
+FROM raw.sales_orders
 WHERE order_date > ship_date;
 Cleaning Decision
 Investigate invalid records before making corrections.
@@ -122,7 +122,7 @@ Profit	Positive or Negative allowed
 
 SQL Example
 SELECT *
-FROM sales_orders
+FROM raw.sales_orders
 WHERE sales < 0
    OR quantity <= 0
    OR discount < 0
