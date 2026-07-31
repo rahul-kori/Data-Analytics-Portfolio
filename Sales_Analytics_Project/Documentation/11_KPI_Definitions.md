@@ -22,7 +22,7 @@ Production SQL
 -- Total revenue generated from all recorded sales transactions
 SELECT
 SUM(sales) AS total_sales
-FROM sales_orders;
+FROM raw.sales_orders;
 
 KPI 2: Total Profit
 Field			Value
@@ -38,7 +38,7 @@ Production SQL
 -- Total profit generated across all sales transactions
 SELECT
 SUM(profit) AS total_profit
-FROM sales_orders;
+FROM raw.sales_orders;
 
 KPI 3: Total Orders
 Field			Value
@@ -54,7 +54,7 @@ Production SQL
 -- Count unique customer orders processed
 SELECT
 COUNT(DISTINCT order_id) AS total_orders
-FROM sales_orders;
+FROM raw.sales_orders;
 
 KPI 4: Total Customers
 Field			Value
@@ -70,7 +70,7 @@ Production SQL
 -- Count unique customers contributing to sales
 SELECT
 COUNT(DISTINCT customer_id) AS total_customers
-FROM sales_orders;
+FROM raw.sales_orders;
 
 KPI 5: Average Order Value (AOV)
 Field			Value
@@ -86,7 +86,7 @@ Production SQL
 -- Average revenue generated per customer order
 SELECT
 SUM(sales) / COUNT(DISTINCT order_id) AS average_order_value
-FROM sales_orders;
+FROM raw.sales_orders;
 
 KPI 6: Profit Margin %
 Field			Value
@@ -102,7 +102,7 @@ Production SQL
 -- Measure profitability as a percentage of total sales
 SELECT
 (SUM(profit) * 100.0) / SUM(sales) AS profit_margin_percent
-FROM sales_orders;
+FROM raw.sales_orders;
 
 KPI 7: Average Discount
 Field			Value
@@ -134,7 +134,7 @@ Production SQL
 -- Total units sold across all completed transactions
 SELECT
 SUM(quantity) AS total_quantity_sold
-FROM sales_orders;
+FROM raw.sales_orders;
 
 KPI Summary
 KPI				            Formula						                    Primary Stakeholder
